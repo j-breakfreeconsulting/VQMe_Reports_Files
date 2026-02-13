@@ -6,16 +6,6 @@
 
 <style>
   @media print {
-  /* Remove browser-added page background */
-  body { background: #fff !important; }
-
-  /* Avoid forced extra page breaks */
-  .outer-wrapper { margin: 0 auto !important; }
-
-  /* Make sure nothing after the table creates space */
-  table { page-break-after: auto !important; }
-  tr, td { page-break-inside: avoid; }
-
   /* Prevent any accidental blank block at the end */
   .no-print-space { display: none !important; }
 }
